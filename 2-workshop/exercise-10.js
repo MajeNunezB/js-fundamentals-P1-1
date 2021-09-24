@@ -13,6 +13,17 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+ 
+let tree='#';
+  for (let i= 1; i<=7; i++){
+console.log(`${tree.repeat(i)}`);
+  }
+
+  //or
+  // for (let line = "#"; line.length < 8; line += "#")
+  // console.log(line);
+
+  
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

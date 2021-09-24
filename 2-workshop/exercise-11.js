@@ -15,6 +15,38 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  // let tree = "#";
+  // let line= "_";
+  // for (let i=4; i<=8; i++){
+  //   let grid = (tree + line);
+
+  //   console.log(`${grid.repeat(i)}`);
+  // }
+  
+  
+  let chess="";
+  let grip=8;
+  for (let x = 0; x < grip; x++) {   
+    if (x % 2 === 0)
+      {chess += "#";}
+    else
+      {chess += "_";}
+      
+  }
+  let separate = chess+",";
+  console.log(separate.repeat(8));
+  
+  //I will comeback to this exercise 
+
+      
+  
+
+
+
+
+ 
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

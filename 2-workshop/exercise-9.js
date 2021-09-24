@@ -28,6 +28,22 @@ function exercise9() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for(let i=1; i<=100; i++){
+  //   - If the number is divisible by 3 (eg. 6), print "Fizz"
+  if(i % 3 === 0){
+    console.log("Fizz");
+  } 
+  //   - If the number is divisible by 5 (eg. 10), print "Buzz"
+  else if( i % 5 === 0){
+    console.log("Buzz");
+  }
+  //   - If the number is divisible by 3 AND 5 (eg. 15), print "FizzBuzz"
+  else if ((i % 3===0) && (i % 5 === 0)){
+    console.log("FizzBuzz");
+  }
+  //   - For all other numbers, print the number itself.
+  else{ console.log(`${i}`)}
+}
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

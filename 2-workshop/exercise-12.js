@@ -15,6 +15,36 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+   // program to check if a number is prime or not
+
+// take input from the user
+
+let isPrime = true;
+
+// check if number is equal to 1
+for (let x = 2; x < 201; x++) {
+  if (x < 2) {
+    console.log(x);
+  } else if (
+    x === 2  ||
+    x === 3  ||
+    x === 5  ||
+    x === 7  ||
+    x === 11 ||
+    x === 13
+  ) {
+    console.log(x);
+  } else if (
+    x % 2 !== 0 &&
+    x % 3 !== 0 &&
+    x % 5 !== 0 &&
+    x % 7 !== 0 &&
+    x % 11 !== 0 &&
+    x % 13 !== 0
+  ) {
+    console.log(x);
+  }
+}
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
